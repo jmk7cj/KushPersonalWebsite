@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    height: 100vh;
+   
+}
+footer{
+    display: flex;
+}
+.socialLinks,
+.socialLinksMain{
+    color: black;
+    font-size: 20px;
+   
+}
+
+.pdfContainer{
+    height: 80%;
+}
+
+header{
+    height:10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 40px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer{
+    height: 10%;
+}
+
+.headerDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 40px;
+}
+
+.profilePicture{
+    height: 350px;
+    width: auto;
+}
+
+#selected{
+    text-decoration: underline;
+}
+
+
+.homeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.col1{
+    align-items: center;
+    text-align: center;
+    height: 100%;
+
+}
+.col2{
+    width: 40%;
+}
+
+
+
+.socialLinksMain{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.socialLinksMain:hover,
+.socialLinksMain:focus{
+    font-size: 40px;
+}
