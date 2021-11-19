@@ -7,30 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="canonical" href="https://www.josephkush.com/code" /> -->
 
 </head>
+
 <body>
-    <header>
-        <p>Joseph M. Kush</p>
-
-        <div class= 'headerDiv'>
-            <a href="index.html" id ="selected"> Home</a>
-            <a href="cvPage.html" >CV</a>
-            <a href="research.html" >Research</a>
-            <a href="code.html" >Code</a>
-        </div>
-         
-       
-    </header>
-    
-    
-    
-    <main>
- 
+    <nav>
 
 
+        <div class="topnav">
+            <a href="#home" class="active">Joseph M. Kush</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html" id ="selected"> Home</a>
+                <a href="cover-letter.html" >CV</a>
+                <a href="research.html" >Research</a>
+                <a href="code.html" >Code</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </nav>
 
-    </main>
+    <main class = "codeMain">
+       <h1> Code From Papers</h1>
+        <h3 id="sampling-ratio-for-multilevel-sem">Sampling ratio for multilevel SEM</h3>
+            <p>Here is 
+                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/monte%20carlo%20simulation/R%20code/syntax.R" 
+                target="_blank">R code</a> 
+                
+                used for Monte Carlo simulations. This relies heavily on the MplusAutomation package in R. An example Mplus input 
+                file for part 1: data generation can be found 
+                
+                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/monte%20carlo%20simulation/example%20Mplus%20files/part%201%20-%20generate%20data/generate_data.inp" 
+                target="_blank">here</a>,
+                
+                while an example Mplus input file for part 2: data analysis can be found 
+                
+                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/monte%20carlo%20simulation/example%20Mplus%20files/part%202%20-%20analyze%20data/analyze_data.inp" 
+                target="_blank">here</a>.
+                
+                For the illustrative example, the doubly latent model can be estimated in both 
+                
+                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/illustrative%20example/Mplus/syntax.inp" 
+                target="_blank">Mplus</a> and 
+                
+                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/illustrative%20example/R/syntax.R" 
+                target="_blank">R</a> 
+                
+                using 
+                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/illustrative%20example/R/data.csv" 
+                target="_blank"> this data</a>.
+                
+                </p>
+
+        <h3 id="moderated-nonlinear-factor-analysis-for-sem">Moderated nonlinear factor analysis for SEM</h3>
+            <p>Here is <a href="https://github.com/jmk7cj/SEM-mnlfa/blob/main/code.R"
+                 target="_blank">R code</a> used for all steps of conducting moderated 
+                 nonlinear factor analysis using <a href="https://github.com/jmk7cj/SEM-mnlfa/blob/main/data.csv" target="_blank">example data</a>.</p>
+        <h3 id="statistical-power-for-cluster-randomized-trials">Statistical 
+            power for cluster randomized trials</h3>
+            <p>Here is <a href="https://github.com/jmk7cj/Statistical-Power-for-CRTs/blob/main/monte%20carlo%20simulation/R%20code/syntax.R" target="_blank">R code</a> used to conduct a Monte Carlo simulation of statistical power for cluster randomized controlled trials with clusters of varying size.</p>
+        <h3 id="propensity-score-matching-and-weighting-example-code">Propensity score matching and weighting example code</h3>
+            <p>Example <a href="https://github.com/jmk7cj/PSMW-example/blob/main/code.R" target="&quot;_blank">R code</a> using MatchIt and WeightIt to balance baseline covariates.</p>
+        <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+
+</main>
     
     <footer> 
      
@@ -54,5 +98,5 @@
     
 
 </body>
-
+<script src="index.js"></script>
 </html>

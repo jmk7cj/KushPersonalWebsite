@@ -7,11 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-
+    <link rel="canonical" href="https://www.josephkush.com/" />
 </head>
 <body>
-    <header>
-        <p>Joseph M. Kush</p>
+
+    <nav>
+        
+
+        <div class="topnav">
+            <a href="#home" class="active">Joseph M. Kush</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html" id ="selected"> Home</a>
+                <a href="cover-letter.html" >CV</a>
+                <a href="research.html" >Research</a>
+                <a href="code.html" >Code</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </nav>
+    <!-- <header>
+        <p class = "name"> Joseph M. Kush</p>
 
         <div class= 'headerDiv'>
             <a href="index.html" id ="selected"> Home</a>
@@ -21,40 +40,53 @@
         </div>
          
        
-    </header>
+    </header> -->
     
     <main class = "homeContainer">
         <div class = "col1">
-                <img src="profile.jpg" alt="A profile picture of Joseph Kush" class = "profilePicture">
-                <h1> Joseph M. Kush</h1>
-            
-            <a href="https://github.com/jmk7cj" target = "_blank" class = "socialLinksMain">
-                    <i class="fab fa-github"> </i> 
-            </a>
-            <a href="https://twitter.com/_kushjoe"target = "_blank" class = "socialLinksMain"> 
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://www.linkedin.com/feed/"target = "_blank" class = "socialLinksMain">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="mailto:jkush1@jhu.edu" target = "_blank" class = "socialLinksMain">
-                <i class="fas fa-envelope"> </i>
-            </a>
+            <img src="joseph-kush-profile.jpg" 
+                alt="A profile picture of Joseph Kush" 
+                class = "profilePicture"
+                height= "341"
+                width = "318"
+            >
+            <h1> Joseph M. Kush</h1>
+            <div>
+                <a href="https://github.com/jmk7cj" target = "_blank" class = "socialLinksMain">
+                        <i class="fab fa-github"> </i> 
+                </a>
+                <a href="https://twitter.com/_kushjoe"target = "_blank" class = "socialLinksMain"> 
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/feed/"target = "_blank" class = "socialLinksMain">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:jkush1@jhu.edu" target = "_blank" class = "socialLinksMain">
+                    <i class="fas fa-envelope"> </i>
+                </a>
            </div>
         
         <div class = "col2">
             <h2>About Me</h2>
             <p>
-                I am currently a postdoctoral fellow at Johns Hopkins Bloomberg School of Public Health. 
-                The primary goal of my research is to develop statistical methods and analytic tools to 
-                solve problems in the social sciences. I am particularly interested in latent variable 
-                measurement in multilevel settings, propensity score methods for causal inference, and
-                moderated nonlinear factor analysis. I have applied these methods in empirical work, 
-                including exploring trends in disproportionate discipline of minority students in schools
-                over time, and developing a psychometrically sound screener of children’s social, emotional,
-                and behavioral functioning.
-            </p>
-
+                I am currently a postdoctoral fellow at  <a href = "https://publichealth.jhu.edu/" target="_blank">Johns Hopkins Bloomberg School of Public Health.</a>  
+                The primary goal of my research is to develop statistical methods and analytic tools to solve problems in the social sciences.
+                 I am particularly interested in latent variable measurement in multilevel settings, propensity score methods for causal inference,
+                  and moderated nonlinear factor analysis. I have applied these methods in empirical work, including exploring trends in disproportionate
+                 discipline of minority students in schools over time, and developing a psychometrically sound screener of children’s social, emotional,
+                  and behavioral functioning.</p>
+            
+            <h2 class = "education">Education</h2>
+            <div id="ph.d.-2021-university-of-virginia" class="section level5">
+                <h3>Ph.D.   |   2021   |   University of Virginia</h3>
+                     <p>Educational Psychology – Research, Statistics and Evaluation</p>
+                <p><br></p>
+            </div>
+            <div id="b.s.-2016-syracuse-university" class="section level5">
+                <h3>B.S.   |   2016   |   Syracuse University</h3>
+                <p>Psychology – Minors in Applied Statistics, Philosophy</p>
+                
+            </div>
         </div>
         
 
@@ -62,7 +94,18 @@
     
     <footer> 
      
-       
+        <a href="https://github.com/jmk7cj" target = "_blank" class = "socialLinks">
+             <i class="fab fa-github"> </i> 
+        </a>
+        <a href="https://twitter.com/_kushjoe"target = "_blank" class = "socialLinks"> 
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/feed/"target = "_blank" class = "socialLinks">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:jkush1@jhu.edu" target = "_blank"class = "socialLinks">
+            <i class="fas fa-envelope"> </i>
+        </a>
        
     </footer>
 
@@ -71,5 +114,5 @@
     
 
 </body>
-
+<script src="index.js"></script>
 </html>

@@ -7,11 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="canonical" href="https://www.josephkush.com/cover-letter" /> -->
 
 </head>
 <body>
 
-    <header>
+    <nav>
+
+
+        <div class="topnav">
+            <a href="#home" class="active">Joseph M. Kush</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html" id ="selected"> Home</a>
+                <a href="cover-letter.html" >CV</a>
+                <a href="research.html" >Research</a>
+                <a href="code.html" >Code</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </nav>
+    <!-- <header>
         <p>Joseph M. Kush</p>
 
         <div class= 'headerDiv'>
@@ -22,11 +41,12 @@
         </div>
          
        
-    </header>
+    </header> -->
    
 
     <div class = "pdfContainer">
-         <iframe src="kushCoverLetter.pdf" width="80%" height="90%"></iframe>
+        <iframe src="kushCoverLetter.pdf#view=fitH" width="100%" height="100%"></iframe>
+        <!-- <a href="kushCoverLetter.pdf"> CLICK</a> -->
     </div>
        
      
@@ -53,5 +73,5 @@
     
 
 </body>
-
+<script src="index.js"></script>
 </html>

@@ -1,21 +1,153 @@
-body{
+ body{
     margin: 0;
     height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
    
 }
-footer{
+
+header{
+    background: black;
+    color: white;
     display: flex;
+    justify-content: space-between;
 }
-.socialLinks,
+
+.name{
+    padding-left: .5em;
+}
+
+
+main{
+    height: 84%;
+    padding: 1em;
+}
+
+.profilePicture{
+    width: 80%;
+    height:auto;
+    
+    
+}
+.homeContainer{
+    text-align: center;
+    padding: .5em;
+    letter-spacing: .1em;
+    line-height: 1.2em;
+}
+
 .socialLinksMain{
-    color: black;
+    margin: 1em;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.col2{
+    
+    margin: 2em .75em;
+    text-align: left;
+}
+
+.education{
+    margin: 2em 0 0 0;
+}
+
+.headerDiv{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: flex-end;
+    margin-right: 1rem;
+    
+}
+
+.pdfContainer{
+    
+    height: 80%;
+    width: 90%;
+    /* margin: 8% 5%; */
+    margin: 5% 5%;
+  
+}
+
+.codeMain{
+    height: 82%;
+    margin: 0 1em;
+    line-height: 1.5em;
+}
+
+.codeMain a{
+    color: green;
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    padding-bottom: 2px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8%;
+    
+}
+
+.socialLinks{
+    color: white;
     font-size: 20px;
    
 }
 
-.pdfContainer{
-    height: 80%;
-}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: white;
+    color: black;
+    
+  }
+
+
+
+/* 
+
 
 header{
     height:10%;
@@ -85,4 +217,4 @@ footer{
 .socialLinksMain:hover,
 .socialLinksMain:focus{
     font-size: 40px;
-}
+} */
