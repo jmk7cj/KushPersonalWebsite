@@ -72,10 +72,14 @@ a:focus{
     padding-left: .75rem;
 }
 
+
+
+/*
 .googleScholar >img:hover,
 .googleScholarFooter:hover{
     height: 35px;   
 }
+*/
 
 
 .topnav {
@@ -122,7 +126,8 @@ a:focus{
 .nav-link:focus,
 .name-link:hover,
 .name-link:focus{
-    font-size: 28px;
+    /* font-size: 28px; */
+   
 }
 
 #selected{
