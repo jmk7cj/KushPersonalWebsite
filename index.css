@@ -115,6 +115,8 @@ a:focus{
     
 }
 
+
+/*
 .nav-link,
 .nav-link:hover,
 .nav-link:focus,
@@ -129,8 +131,8 @@ a:focus{
 .name-link:hover,
 .name-link:focus{
     /* font-size: 28px; */
-   
 }
+*/
 
 #selected{
     text-decoration: underline;
