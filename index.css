@@ -134,10 +134,11 @@ a:focus{
 }
 */
 
+/*
 #selected{
     text-decoration: underline;
 }
-
+*/
 
 @media (max-width: 900px) {
     .fa-bars{
