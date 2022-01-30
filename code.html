@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./jmk.png">
     <!-- <link rel="canonical" href="https://www.josephkush.com/code" /> -->
 
 </head>
@@ -18,10 +19,11 @@
             <a class = "name-link" href="#home" class="active">Joseph M. Kush</a>
             <!-- Navigation links (hidden by default) -->
             <div id= "myLinks">
-                <a class = "nav-link" href="index.html" id ="selected"> Home</a>
+                <a class = "nav-link" href="index.html" > Home</a>
+               
+                <a class = "nav-link" href="publications.html" >Publications</a>
+                <a class = "nav-link" href="code.html" id ="selected" >Code</a>
                 <a class = "nav-link" href="KushCoverLetter.pdf" target = "_blank" >CV</a>
-                <a class = "nav-link" href="research.html" >Research</a>
-                <a class = "nav-link" href="code.html" >Code</a>
             </div>
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -31,66 +33,57 @@
     </nav>
 
     <main class = "codeMain">
-       <h1> Code From Papers</h1>
-        <h3 id="sampling-ratio-for-multilevel-sem">Sampling ratio for multilevel SEM</h3>
-            <p>Here is 
-                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/monte%20carlo%20simulation/R%20code/syntax.R" 
-                target="_blank">R code</a> 
-                
-                used for Monte Carlo simulations. This relies heavily on the MplusAutomation package in R. An example Mplus input 
-                file for part 1: data generation can be found 
-                
-                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/monte%20carlo%20simulation/example%20Mplus%20files/part%201%20-%20generate%20data/generate_data.inp" 
-                target="_blank">here</a>,
-                
-                while an example Mplus input file for part 2: data analysis can be found 
-                
-                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/monte%20carlo%20simulation/example%20Mplus%20files/part%202%20-%20analyze%20data/analyze_data.inp" 
-                target="_blank">here</a>.
-                
-                For the illustrative example, the doubly latent model can be estimated in both 
-                
-                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/illustrative%20example/Mplus/syntax.inp" 
-                target="_blank">Mplus</a> and 
-                
-                <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/illustrative%20example/R/syntax.R" 
-                target="_blank">R</a> 
-                
-                using 
+
+       <h1 class ="codeTitle"> Code From Papers</h1>
+        <h3 class="codeSectionTitle">Sampling ratio for multilevel SEM</h3>
+            <p class = "codeSectionDescription">Here is <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/monte%20carlo%20simulation/R%20code/syntax.R" target="_blank">R code</a> used for Monte Carlo simulations. This relies heavily on the MplusAutomation package in R. An example Mplus input 
+                file for part 1: data generation can be found <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/monte%20carlo%20simulation/example%20Mplus%20files/part%201%20-%20generate%20data/generate_data.inp" 
+                target="_blank">here</a>, while an example Mplus input file for part 2: data analysis can be found <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/monte%20carlo%20simulation/example%20Mplus%20files/part%202%20-%20analyze%20data/analyze_data.inp" 
+                target="_blank">here</a>. For the illustrative example, the doubly latent model can be estimated in both <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/illustrative%20example/Mplus/syntax.inp" 
+                target="_blank">Mplus</a> and <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/illustrative%20example/R/syntax.R" 
+                target="_blank">R</a>  using 
                 <a href="https://github.com/jmk7cj/Sampling-Ratio-for-MSEM/blob/main/illustrative%20example/R/data.csv" 
                 target="_blank"> this data</a>.
-                
-                </p>
+            </p>
 
-        <h3 id="moderated-nonlinear-factor-analysis-for-sem">Moderated nonlinear factor analysis for SEM</h3>
-            <p>Here is <a href="https://github.com/jmk7cj/SEM-mnlfa/blob/main/code.R"
-                 target="_blank">R code</a> used for all steps of conducting moderated 
-                 nonlinear factor analysis using <a href="https://github.com/jmk7cj/SEM-mnlfa/blob/main/data.csv" target="_blank">example data</a>.</p>
-        <h3 id="statistical-power-for-cluster-randomized-trials">Statistical 
-            power for cluster randomized trials</h3>
-            <p>Here is <a href="https://github.com/jmk7cj/Statistical-Power-for-CRTs/blob/main/monte%20carlo%20simulation/R%20code/syntax.R" target="_blank">R code</a> used to conduct a Monte Carlo simulation of statistical power for cluster randomized controlled trials with clusters of varying size.</p>
-        <h3 id="propensity-score-matching-and-weighting-example-code">Propensity score matching and weighting example code</h3>
-            <p>Example <a href="https://github.com/jmk7cj/PSMW-example/blob/main/code.R" target="&quot;_blank">R code</a> using MatchIt and WeightIt to balance baseline covariates.</p>
-        <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+        <h3 class="codeSectionTitle">Moderated nonlinear factor analysis for SEM</h3>
+            
+            <p class = "codeSectionDescription" >Here is <a href="https://github.com/jmk7cj/SEM-mnlfa/blob/main/code.R" target="_blank">R code</a> used for all steps of conducting moderated 
+            nonlinear factor analysis using <a href="https://github.com/jmk7cj/SEM-mnlfa/blob/main/data.csv" target="_blank">example data</a>.
+            </p>
+        
+         <h3 class="codeSectionTitle">Statistical power for cluster randomized trials</h3>
+            <p class = "codeSectionDescription">Here is <a href="https://github.com/jmk7cj/Statistical-Power-for-CRTs/blob/main/monte%20carlo%20simulation/R%20code/syntax.R" target="_blank">R code</a> 
+                used to conduct a Monte Carlo simulation of statistical power for cluster randomized controlled trials with clusters of varying size.
+            </p>
+
+        <h3 class="codeSectionTitle">Propensity score matching and weighting example code</h3>
+            <p class = "codeSectionDescription">Example <a href="https://github.com/jmk7cj/PSMW-example/blob/main/code.R" target="_blank">R code</a> using MatchIt and WeightIt to balance baseline covariates.
+            </p>
+   
 
 </main>
+
     
     <footer> 
      
-        <a href="https://github.com/jmk7cj" target = "_blank" class = "socialLinks">
-             <i class="fab fa-github"> </i> 
-        </a>
-        <a href="https://twitter.com/_kushjoe"target = "_blank" class = "socialLinks"> 
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://www.linkedin.com/feed/"target = "_blank" class = "socialLinks">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="mailto:jkush1@jhu.edu" target = "_blank"class = "socialLinks">
-            <i class="fas fa-envelope"> </i>
-        </a>
-       
+        <div class="socialFooter">
+            <a href="https://github.com/jmk7cj" target = "_blank" class = "socialLinks">
+                 <i class="fab fa-github"> </i>
+            </a>
+            <a href="https://twitter.com/_kushjoe"target = "_blank" class = "socialLinks">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <!-- <a href="https://www.linkedin.com/feed/"target = "_blank" class = "socialLinks">
+                <i class="fab fa-linkedin"></i>
+            </a> -->
+            <a href="mailto:jkush1@jhu.edu" target = "_blank"class = "socialLinks">
+                <i class="fas fa-envelope"> </i>
+            </a>
+            <a class = ""  href=" https://scholar.google.com/citations?user=Q11q6tgAAAAJ&hl=en " target = "_blank"> <img class="googleScholarFooter" src="./google_scholar.svg" alt="Link to navigate to Joseph Kush's google scholar site"> </a>
+        </div>
     </footer>
+
 
 
 

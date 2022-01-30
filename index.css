@@ -1,117 +1,74 @@
- body{
+/* All Pages CSS  */
+
+body{
     margin: 0;
     height: 100vh;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
    
 }
 
 a{
     color: #060;
 }
-
-header{
-    /* background: black; */
-    color: white;
-    display: flex;
-    justify-content: space-between;
- 
+a:hover,
+a:focus{
+    font-size: 1.3rem;
 }
 
-.name{
+.socialLinks:hover,
+.socialLinks:focus,
+.socialLinksMain:hover,
+.socialLinksMain:focus{
+    font-size: 1.35rem;
+}    
+
+/* .name{
     padding-left: .5em;
-}
+} */
 
 .fs-edit-link,
 .fs-sign-link,
-.formswift-button{
+.formswift-button,
+.fa-bars,
+.fa,
+.icon{
     display: none;
     width: 0;
 }
 
-
-.publishedPaperMain{
-    height: 84%;
-    padding: 1em;
-}
-
-.profilePicture{
-    max-width: 500px;
-    height:auto;
-    
-    
-    
-}
-.homeContainer{
-    text-align: center;
-    padding: .5em;
-    letter-spacing: .1em;
-    line-height: 1.2em;
-}
-
-.socialLinksMain{
-    margin: 1em;
-    font-size: 20px;
-    text-decoration: none;
-    
-}
-
-.col2{
-    
-    margin: 2em .75em;
-    text-align: left;
-}
-
-.education{
-    margin: 2em 0 0 0;
-}
-
-/* find out what headerDIv is for */
-
-
-
-.pdfContainer{
-    
-    height: 80%;
-    width: 90%;
-    /* margin: 8% 5%; */
-    margin: 5% 5%;
-  
-}
-
-.codeMain{
-    height: 82%;
-    margin: 0 1em;
-    line-height: 1.5em;
-}
-
-.codeMain a{
-    color: green;
-    text-decoration: none;
-    border-bottom: 1px solid green;
-    padding-bottom: 2px;
-}
-
-footer{
-    background-color: #e8e8e8;
+.socialLinksContainer{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 8%;
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    z-index:1;
-    width:100%;
-
-    
-    
+    align-items: baseline;
+    justify-content: center;
 }
-
 .socialLinks{
     color: black;
     font-size: 20px;
+    vertical-align: middle;
    
 }
+
+.googleScholar >img {
+    height: 30px;    
+    vertical-align: middle;
+    padding-left: .75rem;
+    filter: invert(15%) sepia(99%) saturate(2907%) hue-rotate(101deg) brightness(103%) contrast(105%);
+
+    
+}
+
+.googleScholarFooter{
+    height: 30px;    
+    vertical-align: middle;
+    padding-left: .75rem;
+}
+
+.googleScholar >img:hover,
+.googleScholarFooter:hover{
+    height: 35px;   
+}
+
 
 .topnav {
     overflow: hidden;
@@ -125,12 +82,7 @@ footer{
 
 }
 
-.fa-bars,
-.fa,
-.icon {
-    display: none;
-    width: 0px;
-}
+
 .name-link{
     font-size: 25px;
 
@@ -138,14 +90,13 @@ footer{
 
 #myLinks{
      
-    width: 60%;
+    width: 40%;
     margin-left: 0;
     padding-left: 0;
     display: flex;
     justify-content: space-between;
     padding-right: .3em;
     font-size: 25px;
-    
     
     
 }
@@ -159,72 +110,288 @@ footer{
     text-decoration: none;
 }
 
-/* .nav-link{
-    border: 1px solid red;
-} */
-
-.profilePicture{
-    height: 300px;
-    width: auto;
-}
-
 #selected{
     text-decoration: underline;
 }
 
 
-@media (max-width: 766px) {
-.fa-bars{
-    display: block;
-}
+@media (max-width: 900px) {
+    .fa-bars{
+        display: block;
+    }
+        
+    .topnav {
+        overflow: hidden;
+        /* background-color: white; */
+        position: relative;
     
-.topnav {
-    overflow: hidden;
-    /* background-color: white; */
-    position: relative;
-  
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  /* Style the hamburger menu */
-  
-  .topnav a.icon {
-    /* background: white; */
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    /* background-color: white; */
-    color: black;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: white;
-    color: black;
+    }
     
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
     
-  }
-
-
+    /* Style navigation menu links */
+    .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    /* Style the hamburger menu */
+    
+    .topnav a.icon {
+        /* background: white; */
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 20%;
+        font-size: 25px;
+        margin-right: 1.2em;
+        
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        /* background-color: white; */
+        color: black;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: white;
+        color: black;
+        
+    }
 } 
+
+footer{
+    margin-top: 10px;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 8%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+   
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    
+}
+.socialFooter{
+    
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+/* End All */
+
+
+
+/* HomePage CSS */
+
+.profilePicture{
+    height: 300px;
+    width: auto;
+}
+.homeContainer{
+    text-align: center;
+    padding: .5em;
+    letter-spacing: .1em;
+    line-height: 1.2em;
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+
+.socialLinksMain{
+    margin: 1em;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.education{
+    margin: 2em 0 0 0;
+}
+.col1{
+    width: 50%;
+    height: 100vh;
+    align-self: center;
+
+}
+.col2{
+    height: 100vh;
+    width: 50%;
+    margin: 2em .75em;
+    text-align: left;
+    padding: 100px;
+    align-self: center; 
+    border-left: 1px solid lightgrey;
+   
+}
+
+@media (max-width: 900px) {
+    .homeContainer{
+        flex-direction: column;
+    }
+    .col1{
+        height: 50%;
+
+    
+    }
+    .col2{
+        padding-top: 0;
+        height: 50%;
+        text-align: left;
+        border-left: none;
+     
+    }
+}
+
+
+
+
+/* End Home  */
+
+
+/* Publications CSS */
+
+
+.publishedPaperMain{
+    padding: 0 9em 4em 9em;
+   
+}
+
+.publicationsList{
+    list-style-type: none;
+    margin-bottom: 2em;
+    line-height: 1.3em;
+
+}
+.publicationsTitle{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: .5em;
+    font-size: 1.75rem;
+    margin-bottom: 2em;
+    margin-top: 2rem;
+    
+}
+
+.publicationsSectionTitle{
+    margin-top: 3em;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+
+/* End publications */
+
+
+
+/* Code CSS */
+
+.codeMain{
+   
+    margin: 0 1em 3em 1em; 
+    line-height: 1.5em;
+    padding: 0 9em 5em 9em;
+}
+
+.codeMain a{
+    color: green;
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    padding-bottom: 2px;
+}
+
+.codeSectionTitle{
+    margin-top: 3em;
+    font-size: 1.25rem;
+    /* font-style: italic; */
+}
+.codeTitle{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: .5em;
+    font-size: 1.75rem;
+    margin-bottom: 2em;
+    margin-top: 2rem;
+}
+
+/* 
+.publicationsList{
+    list-style-type: none;
+    margin-bottom: 2em;
+    line-height: 1.3em;
+
+}
+.publicationsTitle{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: .5em;
+    font-size: 1.75rem;
+    margin-bottom: 2em;
+    margin-top: 2rem;
+    
+}
+/* 
+
+
+
+
+/* End Code */
+
+
+
+/* CV CSS */
+
+
+/* End CV */
+
+
+
+
+
+
+
+
+
+
+
+
+/* find out what headerDIv is for */
+
+
+
+/* .pdfContainer{
+    
+    height: 80%;
+    width: 90%;
+    /* margin: 8% 5%; 
+    margin: 5% 5%;
+  
+ONly need if CV doesnt open in new page 
+
+} */
+
+
+
+
+
 
 
 
