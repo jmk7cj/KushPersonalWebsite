@@ -4,10 +4,10 @@ body{
     margin: 0;
     height: 100vh;
     /* font-family: 'Times New Roman', Times, serif; */ 
-    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */ 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
     
     /* font-family: "Roboto slab", serif; */
-    font-family: "Times New Roman", Helvetica, sans-serif; 
+    /* font-family: "Times New Roman", Helvetica, sans-serif; */
     
     /* font-family: Roboto, arial, sans-serif; */
     /* font-size: 20px; */ 
