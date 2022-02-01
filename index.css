@@ -32,13 +32,18 @@ a:focus{
 }
 
 
-/* 
+
 .socialLinks:hover,
-.socialLinks:focus,
-.socialLinksMain:hover,
-.socialLinksMain:focus{
-   
-}     */
+.socialLinks:focus{
+    color:  #060;
+}
+.googleScholarFooter:hover{
+    filter: invert(24%) sepia(73%) saturate(1263%) hue-rotate(87deg) brightness(98%) contrast(107%)
+}
+
+
+
+
 
 .name{
     padding-left: .5em;
@@ -77,8 +82,7 @@ a:focus{
     
 }
 
-.googleScholar >img:hover,
-.googleScholarFooter:hover{
+.googleScholar >img:hover{
     filter: invert(46%) sepia(19%) saturate(0%) hue-rotate(275deg) brightness(104%) contrast(93%);
 }
 
@@ -211,7 +215,8 @@ footer{
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    height: 8%;
+    max-height: 68px;
+    min-height: 68px;
     position:fixed;
     left:0px;
     bottom:0px;
