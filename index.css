@@ -199,62 +199,11 @@ a:focus{
      
       width: 90%;
       text-align: right;
-      padding
   }
 
 
-  /* .active{
-     
-  } */
-    /*    
-    .topnav {
-        overflow: hidden;
-       
-        position: relative;
-    
-    }
-    
-   
-    .topnav #myLinks {
-        display: none;
-    }
-    
-    
-    .topnav a {
-        color: black;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-    
-    
-    
-    .topnav a.icon {
-        
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        font-size: 25px;
-        margin-right: 1.2em;
-        
-    }
-    
-   
-    .topnav a:hover {
-      
-        color: black;
-    }
-    
-   
-    .active {
-        background-color: white;
-        color: black;
-        
-    }*/
 } 
-<!-- new thing added here --> 
+
 footer{
     margin-top: 10px;
     background-color: #F2F2F2;
