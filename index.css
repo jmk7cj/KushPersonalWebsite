@@ -34,19 +34,18 @@ a:focus{
 }
 
 
-/*
+
 .socialLinks:hover,
 .socialLinks:focus,
 .socialLinksMain:hover,
 .socialLinksMain:focus{
-    /* font-size: 1.35rem; */ 
+     font-size: 1.35rem;  
 }    
-*/
 
-/* .name{
+.name{
     padding-left: .5em;
-} */
 
+}
 
 
 .fs-edit-link,
@@ -88,12 +87,12 @@ a:focus{
 
 
 
-/*
+
 .googleScholar >img:hover,
 .googleScholarFooter:hover{
     height: 35px;   
 }
-*/
+
 
 
 .topnav {
@@ -128,7 +127,7 @@ a:focus{
 }
 
 
-/*
+
 .nav-link,
 .nav-link:hover,
 .nav-link:focus,
@@ -142,15 +141,15 @@ a:focus{
 .nav-link:focus,
 .name-link:hover,
 .name-link:focus{
-    /* font-size: 28px; */
+    font-size: 28px;
 }
-*/
 
-/*
-#selected{
+
+
+/* #selected{
     text-decoration: underline;
-}
-*/
+} */
+
 
 @media (max-width: 900px) {
     .fa-bars,
