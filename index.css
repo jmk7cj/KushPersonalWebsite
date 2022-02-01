@@ -3,7 +3,7 @@
 body{
     /* margin: 0; */
     /* height: 100vh; */
-    margin: 5px;
+    margin: 0px;
     height: 65vh;
     
     /* font-family: 'Times New Roman', Times, serif; */ 
@@ -22,25 +22,23 @@ body{
 
 a{
     color: #060;
+    text-decoration: none;
 }
 a:hover,
 a:focus{
-<<<<<<< Updated upstream
-   /* font-size: 1.3rem; */
-=======
-    /* font-size: 1.3rem; */
-    color: #013801;
->>>>>>> Stashed changes
+    /* color: #013801; */
+    color: grey;
+
 }
 
 
-
+/* 
 .socialLinks:hover,
 .socialLinks:focus,
 .socialLinksMain:hover,
 .socialLinksMain:focus{
-     font-size: 1.35rem;  
-}    
+   
+}     */
 
 .name{
     padding-left: .5em;
@@ -79,6 +77,11 @@ a:focus{
     
 }
 
+.googleScholar >img:hover,
+.googleScholarFooter:hover{
+    filter: invert(46%) sepia(19%) saturate(0%) hue-rotate(275deg) brightness(104%) contrast(93%);
+}
+
 .googleScholarFooter{
     height: 30px;    
     vertical-align: middle;
@@ -88,21 +91,21 @@ a:focus{
 
 
 
-.googleScholar >img:hover,
+/* .googleScholar >img:hover,
 .googleScholarFooter:hover{
-    height: 35px;   
-}
+    
+} */
 
 
 
 .topnav {
     overflow: hidden;
-    background-color: white;
+    /* background-color: white; */
     position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background-color: #e8e8e8;
+    background-color: #F2F2F2;
     padding: 1em;
 
 }
@@ -141,14 +144,15 @@ a:focus{
 .nav-link:focus,
 .name-link:hover,
 .name-link:focus{
-    font-size: 28px;
+  color: #060;
 }
 
 
 
-/* #selected{
+#selected{
     text-decoration: underline;
-} */
+    color: #060
+}
 
 
 @media (max-width: 900px) {
@@ -159,13 +163,14 @@ a:focus{
     
 .topnav {
     overflow: hidden;
-    background-color: white;
+    background-color: #F2F2F2;
     position: relative;
     display: block;
-    text-align: right;
+    text-align: left;
   }
   .topnav #myLinks {
     display: none;
+    width: 100%;
   }
 
 
@@ -178,7 +183,7 @@ a:focus{
   }
   
   .topnav a.icon {
-    background: white;
+    background: #F2F2F2;
     display: block;
     position: absolute;
     right: 0;
@@ -187,13 +192,20 @@ a:focus{
   
  
   .topnav a:hover {
-    background-color: white;
+    background-color: #F2F2F2;
     color: black;
   } 
-
-  .active{
-      border: 1px solid red;
+  .nav-link{
+     
+      width: 90%;
+      text-align: right;
+      padding
   }
+
+
+  /* .active{
+     
+  } */
     /*    
     .topnav {
         overflow: hidden;
@@ -245,7 +257,7 @@ a:focus{
 <!-- new thing added here --> 
 footer{
     margin-top: 10px;
-    background-color: #e8e8e8;
+    background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -385,12 +397,7 @@ footer{
     padding: 0 9em 5em 9em;
 }
 
-.codeMain a{
-    color: green;
-    text-decoration: none;
-    border-bottom: 1px solid green;
-    padding-bottom: 2px;
-}
+
 
 .codeSectionTitle{
     margin-top: 3em;
@@ -407,125 +414,3 @@ footer{
 
 
 /* End Code */
-<<<<<<< Updated upstream
-
-
-
-/* CV CSS */
-
-
-/* End CV */
-
-
-
-
-
-
-
-
-
-
-
-
-/* find out what headerDIv is for */
-
-
-
-/* .pdfContainer{
-    
-    height: 80%;
-    width: 90%;
-    /* margin: 8% 5%; 
-    margin: 5% 5%;
-  
-ONly need if CV doesnt open in new page 
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-
-header{
-    height:10%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-   
-    font-size: 16px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding-left: 40px;
-}
-header a{
-    text-decoration: none;
-    color: white;
-
-}
-
-footer{
-    height: 10%;
-}
-
-.headerDiv{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30%;
-    margin-right: 40px;
-}
-
-.profilePicture{
-    height: 350px;
-    width: auto;
-}
-
-#selected{
-    text-decoration: underline;
-}
-
-
-.homeContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.col1{
-    align-items: center;
-    text-align: center;
-    height: 100%;
-
-}
-.col2{
-    width: 40%;
-}
-
-
-
-.socialLinksMain{
-    margin: 20px;
-    text-decoration: none;
-}
-
-.socialLinksMain:hover,
-.socialLinksMain:focus{
-    font-size: 40px;
-} */
-=======
->>>>>>> Stashed changes
