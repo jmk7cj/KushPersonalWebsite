@@ -1,21 +1,13 @@
 /* All Pages CSS  */
 
 body{
-    /* margin: 0; */
-    /* height: 100vh; */
+    
     margin: 0px;
     height: 65vh;
-    
-    /* font-family: 'Times New Roman', Times, serif; */ 
-    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-family: "Serif", Arial;
-    
-    /* font-family: "Roboto slab", serif; */
-    /* font-family: "Times New Roman", Helvetica, sans-serif; */
-    
-    /* font-family: Roboto, arial, sans-serif; */
-    /* font-size: 20px; */ 
     font-size: 17px;
+    
+    font-family: 'Roboto', sans-serif;
    
 }
 
@@ -191,7 +183,7 @@ a:focus{
         background: #F2F2F2;
         display: block;
         position: absolute;
-        right: 10px;
+        right: 15px;
         top: 20%;
     }
     
@@ -248,11 +240,8 @@ footer{
     letter-spacing: .1em;
     line-height: 1.2em;
     display: flex;
-    flex-direction: row;
-   
-    
+    flex-direction: row;  
 }
-
 
 .socialLinksMain{
     margin: 1em;
@@ -266,12 +255,12 @@ footer{
 }
 .col1{
     width: 50%;
-    height: 100vh;
+    height: 50vh;
     align-self: center;
 
 }
 .col2{
-    height: 100vh;
+    height: 50vh;
     width: 50%;
     margin: 2em .75em;
     text-align: left;
