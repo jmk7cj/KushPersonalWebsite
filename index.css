@@ -25,7 +25,12 @@ a{
 }
 a:hover,
 a:focus{
+<<<<<<< Updated upstream
    /* font-size: 1.3rem; */
+=======
+    /* font-size: 1.3rem; */
+    color: #013801;
+>>>>>>> Stashed changes
 }
 
 
@@ -148,23 +153,62 @@ a:focus{
 */
 
 @media (max-width: 900px) {
-    .fa-bars{
+    .fa-bars,
+    .fa{
         display: block;
     }
-        
+    
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    display: block;
+    text-align: right;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20%;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  } 
+
+  .active{
+      border: 1px solid red;
+  }
+    /*    
     .topnav {
         overflow: hidden;
-        /* background-color: white; */
+       
         position: relative;
     
     }
     
-    /* Hide the links inside the navigation menu (except for logo/home) */
+   
     .topnav #myLinks {
         display: none;
     }
     
-    /* Style navigation menu links */
+    
     .topnav a {
         color: black;
         padding: 14px 16px;
@@ -173,31 +217,31 @@ a:focus{
         display: block;
     }
     
-    /* Style the hamburger menu */
+    
     
     .topnav a.icon {
-        /* background: white; */
+        
         display: block;
         position: absolute;
         right: 0;
-        top: 20%;
+        top: 0;
         font-size: 25px;
         margin-right: 1.2em;
         
     }
     
-    /* Add a grey background color on mouse-over */
+   
     .topnav a:hover {
-        /* background-color: white; */
+      
         color: black;
     }
     
-    /* Style the active link (or home/logo) */
+   
     .active {
         background-color: white;
         color: black;
         
-    }
+    }*/
 } 
 
 footer{
@@ -212,10 +256,6 @@ footer{
     left:0px;
     bottom:0px;
     width:100%;
-   
-    /* padding-left: 100px;
-    padding-right: 100px; */
-    
 }
 .socialFooter{
     
@@ -223,9 +263,6 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-
-
-
 
 
 
@@ -297,9 +334,9 @@ footer{
 }
 
 
-
-
 /* End Home  */
+
+
 
 
 /* Publications CSS */
@@ -314,6 +351,8 @@ footer{
     list-style-type: none;
     margin-bottom: 2em;
     line-height: 1.3em;
+    text-indent: -36px;
+    
 
 }
 .publicationsTitle{
@@ -333,6 +372,8 @@ footer{
 
 
 /* End publications */
+
+
 
 
 
@@ -365,27 +406,9 @@ footer{
     margin-top: 2rem;
 }
 
-/* 
-.publicationsList{
-    list-style-type: none;
-    margin-bottom: 2em;
-    line-height: 1.3em;
-
-}
-.publicationsTitle{
-    border-bottom: 1px solid lightgrey;
-    padding-bottom: .5em;
-    font-size: 1.75rem;
-    margin-bottom: 2em;
-    margin-top: 2rem;
-    
-}
-/* 
-
-
-
 
 /* End Code */
+<<<<<<< Updated upstream
 
 
 
@@ -505,3 +528,5 @@ footer{
 .socialLinksMain:focus{
     font-size: 40px;
 } */
+=======
+>>>>>>> Stashed changes
