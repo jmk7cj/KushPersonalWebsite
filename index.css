@@ -6,6 +6,7 @@ body{
     height: 65vh;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
+    
    
 }
 
@@ -153,9 +154,9 @@ a:focus{
     .fa{
         display: block;
     }
-    nav{
+    /* nav{
         width: 100%;
-    }
+    } */
     .topnav {
         margin: 0px;
         overflow: hidden;
@@ -168,7 +169,7 @@ a:focus{
         /* position:fixed; */
         right:0px;
         top:0px;
-        width:100%;
+        width: 100vw;
       
     }
     .topnav #myLinks {
@@ -288,11 +289,7 @@ footer{
         /* padding-right: 100px; */
         align-items: center;
         align-content: center;
-        width: 100vw
-
-
-   
-
+       
     }
     h1{
         width: 300px;
