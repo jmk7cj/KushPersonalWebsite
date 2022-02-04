@@ -2,11 +2,9 @@
 
 body{
     
-    margin: 0px;
+    margin: 0;
     height: 65vh;
-    font-family: "Serif", Arial;
     font-size: 17px;
-    
     font-family: 'Roboto', sans-serif;
    
 }
@@ -156,18 +154,27 @@ a:focus{
     .fa{
         display: block;
     }
-    
+    nav{
+        width: 100%;
+    }
     .topnav {
+        margin: 0px;
         overflow: hidden;
         background-color: #F2F2F2;
         position: relative;
         display: block;
         text-align: left;
-        padding: 8px;
+        padding-bottom: .75rem;
+        /* min-width: 100%; */
+        /* position:fixed; */
+        right:0px;
+        top:0px;
+        width:100%;
+      
     }
     .topnav #myLinks {
         display: none;
-        width: 100%;
+        width: 90%;
     }
 
 
@@ -184,6 +191,7 @@ a:focus{
         display: block;
         position: absolute;
         right: 15px;
+        color: black;
         top: 20%;
     }
     
@@ -192,12 +200,16 @@ a:focus{
         background-color: #F2F2F2;
         color: black;
     } 
+    .nav-link-first{
+       
+        margin-top: 50px;
+    }
     .nav-link{
-        
+       
         width: 90%;
         text-align: right;
     }
-
+ 
 
 } 
 
@@ -273,16 +285,34 @@ footer{
 @media (max-width: 900px) {
     .homeContainer{
         flex-direction: column;
+        justify-content: center;
+        /* padding-right: 100px; */
+        align-items: center;
+        align-content: center;
+        width: 100vw
+
+
+   
+
     }
+    h1{
+        width: 300px;
+        margin: 20px auto;
+    }
+
     .col1{
         height: 50%;
+        width: 300px;
+        margin: 0;
+        /* padding-right: 100px; */
 
     
     }
     .col2{
-        padding-top: 0;
+        padding: 0 10px;
         height: 50%;
         text-align: left;
+        margin: 0;
         border-left: none;
      
     }
@@ -307,14 +337,13 @@ footer{
     margin-bottom: 2em;
     line-height: 1.3em;
     text-indent: -36px;
-    
 
 }
 .publicationsTitle{
     border-bottom: 1px solid lightgrey;
     padding-bottom: .5em;
-    font-size: 1.75rem;
-    margin-bottom: 2em;
+    font-size: 1.75em;
+    margin-bottom: 2rem;
     margin-top: 2rem;
     
 }
@@ -325,6 +354,22 @@ footer{
     font-style: italic;
 }
 
+
+@media (max-width: 900px) {
+
+    .publishedPaperMain{
+        padding: 3rem;
+        margin: 0 auto;
+        /* overflow-x: hidden; */
+        word-wrap: break-word;
+        /* smin-width: 280px; */
+        
+       
+    }
+
+ 
+
+}
 
 /* End publications */
 
@@ -354,6 +399,13 @@ footer{
     font-size: 1.75rem;
     margin-bottom: 2em;
     margin-top: 2rem;
+}
+@media (max-width: 900px) {
+
+    .codeMain{
+        padding: 2em;
+    }
+
 }
 
 
