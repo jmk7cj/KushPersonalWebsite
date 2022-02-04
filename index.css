@@ -100,7 +100,7 @@ a:focus{
     justify-content: space-between;
     flex-direction: row;
     background-color: #F2F2F2;
-    padding: 1em;
+    padding: 1em 0;
 
 }
 
@@ -142,10 +142,9 @@ a:focus{
 }
 
 
-
-#selected{
-    text-decoration: underline;
-    color: #060
+.underline{
+    border-bottom: 1px solid #060;
+    padding-bottom: .25em
 }
 
 
@@ -297,23 +296,26 @@ footer{
     }
     h1{
         width: 300px;
-        margin: 20px auto;
+        margin: 20px auto 10px auto;
     }
 
     .col1{
         height: 50%;
         width: 300px;
         margin: 0;
+
         /* padding-right: 100px; */
 
     
     }
     .col2{
-        padding: 0 10px;
+        /* padding: 0 10px; */
         height: 50%;
+        width: 300px;
         text-align: left;
         margin: 0;
         border-left: none;
+        padding: 1.2em;
      
     }
 }
