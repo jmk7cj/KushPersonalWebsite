@@ -83,7 +83,7 @@ a:focus{
     padding-left: .75rem;
 }
 
-
+/* This is a random test */
 
 
 /* .googleScholar >img:hover,
@@ -101,7 +101,7 @@ a:focus{
     justify-content: space-between;
     flex-direction: row;
     background-color: #F2F2F2;
-    padding: 1em 0;
+    padding: 1em 1em;
 
 }
 
@@ -164,12 +164,12 @@ a:focus{
         position: relative;
         display: block;
         text-align: left;
-        padding-bottom: .75rem;
+        padding: .75rem;
         /* min-width: 100%; */
         /* position:fixed; */
         right:0px;
         top:0px;
-        width: 100vw;
+        width: 100%;
       
     }
     .topnav #myLinks {
@@ -193,6 +193,7 @@ a:focus{
         right: 15px;
         color: black;
         top: 20%;
+        padding-right: 2em;
     }
     
     
@@ -209,7 +210,7 @@ a:focus{
         width: 90%;
         text-align: right;
     }
- 
+    
 
 } 
 
