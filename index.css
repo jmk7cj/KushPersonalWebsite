@@ -5,7 +5,8 @@ body{
     margin: 0;
     height: 65vh;
     font-size: 17px;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: sans-serif, Roboto;
     
    
 }
