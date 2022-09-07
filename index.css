@@ -1,12 +1,23 @@
 /* All Pages CSS  */
 
+head{
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
 body{
     
     margin: 0;
     height: 65vh;
     font-size: 17px;
     /* font-family: 'Roboto', sans-serif; */
-    font-family: sans-serif, Roboto;
+    /* font-family: sans-serif, Roboto; */ 
+    font-family: 'Roboto', sans-serif;
 
     
    
