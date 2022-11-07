@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a9f2e1d683.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">    
+    <title>Joseph M. Kush's Code Repository</title>
+    <meta name ="decription" content="Joseph Kush's repository of code used for simulation and analysis from published papers and projects."> 
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./jmk.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet"></head>
+    <link rel="canonical" href="https://www.josephkush.com/code" />
+
+</head>
+
+    
+<body>
+    
+    <nav>
+        <div class="topnav">
+            <a class = "name-link" href="index.html" class="active">Joseph M. Kush</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id= "myLinks">
+                <a class = "nav-link" href="index.html" > Home</a>
+                <a class = "nav-link" href="publications.html" >Publications</a>
+                <a class = "nav-link" href="teaching.html" id ="selected" ><span class ='underline'>Teaching</span></a>
+                <a class = "nav-link" href="code.html" > Code</a> 
+                <a class = "nav-link" href="KUSH cv.pdf" target = "_blank" >CV</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    </nav>
+
+
+
+
+    <main class = "teachingMain">
+
+       <h1 class ="teachingTitle"> Workshop examples</h1>
+
+        <h2 class="codeSectionTitle">Propensity score matching and weighting</h2>
+            <p class = "codeSectionDescription">
+            Here is some text.
+            </p>
+
+
+
+
+        <h2 class="codeSectionTitle">Missing data</h2>
+            <p class = "codeSectionDescription" >
+            Here is some more text on missing data. 
+            </p>
+        
+
+</main>
+
+
+
+
+
+    
+    <footer> 
+     
+        <div class="socialFooter">
+            <a href="https://github.com/jmk7cj" target = "_blank" class = "socialLinks">
+                 <i class="fab fa-github"> </i>
+            </a>
+            <a href="https://twitter.com/_kushjoe"target = "_blank" class = "socialLinks">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="mailto:kushjm@jmu.edu" target = "_blank"class = "socialLinks">
+                <i class="fas fa-envelope"> </i>
+            </a>
+            <a class = ""  href=" https://scholar.google.com/citations?user=Q11q6tgAAAAJ&hl=en " target = "_blank"> <img class="googleScholarFooter" src="./google_scholar.svg" alt="Link to navigate to Joseph Kush's google scholar site"> </a>
+        </div>
+    </footer>
+
+
+
+
+    
+
+</body>
+<script src="index.js"></script>
+</html>
