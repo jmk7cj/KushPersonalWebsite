@@ -420,5 +420,47 @@ footer{
 
 }
 
-
 /* End Code */
+
+
+
+
+
+
+
+
+
+
+
+/* Code Teaching */
+
+.teachingMain{
+   
+    margin: 0 1em 3em 1em; 
+    line-height: 1.5em;
+    padding: 0 9em 5em 9em;
+}
+
+
+
+.teachingSectionTitle{
+    margin-top: 3em;
+    font-size: 1.25rem;
+    /* font-style: italic; */
+}
+.teachingTitle{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: .5em;
+    font-size: 1.75rem;
+    margin-bottom: 2em;
+    margin-top: 2rem;
+}
+@media (max-width: 900px) {
+
+    .teachingMain{
+        padding: 2em;
+    }
+
+}
+
+/* End Teaching */
