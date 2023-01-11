@@ -308,7 +308,8 @@ footer{
     /* height: 20vh; */
     /* width: 50%; */ 
     
-    height: 90%; 
+    /* height: 90%; */ 
+    height: 90vh; 
     width: 70%;
     
     /* margin: 2em .75em; */ 
