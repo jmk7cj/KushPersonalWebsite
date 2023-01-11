@@ -291,7 +291,7 @@ footer{
 
 /* picture columnn */ 
 .col1{
-    width: 50%;
+    width: 40%;
     /* height: 50vh; */ 
     height: 10vh; 
     align-self: center; 
@@ -308,7 +308,7 @@ footer{
     /* width: 50%; */ 
     
     height: 70%; 
-    width: 70%
+    width: 60%
     
     /* margin: 2em .75em; */ 
     margin: 2em 0.75em; 
