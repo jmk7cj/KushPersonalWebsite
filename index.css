@@ -282,8 +282,7 @@ footer{
 }
 
 .education{
-    /* margin: 2em 0 0 0; */ 
-    margin: 0.5em 0 0 0;
+    margin: 2em 0 0 0;
 }
 
 .col1{
@@ -293,7 +292,8 @@ footer{
 
 }
 .col2{
-    height: 50vh;
+    /* height: 50vh; */ 
+    height: 20vh;
     width: 50%;
     margin: 2em .75em;
     text-align: left;
