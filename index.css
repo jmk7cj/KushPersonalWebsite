@@ -308,7 +308,7 @@ footer{
     width: 70%;
     
     /* margin: 2em .75em; */ 
-    margin: 0.2em 0.75em; 
+    margin: 2em 0.75em; 
     text-align: left;
     padding: 100px;
     align-self: center; 
@@ -354,8 +354,7 @@ footer{
         text-align: left;
         margin: 0;
         border-left: none;
-        /* padding: 1.2em; */ 
-        padding: 0.2em; 
+        padding: 1.2em; 
     }
     
     
