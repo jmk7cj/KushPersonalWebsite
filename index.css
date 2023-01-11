@@ -294,7 +294,7 @@ footer{
     /* height: 90%; */
     /* width: 40%; */
     /* height: 50vh; */
-    height: 40vh; 
+    height: 50vh; 
     width: 40%;
     align-self: center; 
 }
@@ -305,7 +305,7 @@ footer{
 /* about me columnn [controls center line] */ 
 .col2{ 
     /* height: 50vh; */
-    height: 40vh; /* this controls length of center line*/ 
+    height: 50vh; /* this controls length of center line*/ 
     width: 70%;
     margin: 2em 0.75em; 
     text-align: left;
@@ -336,8 +336,8 @@ footer{
     
     /* picture columnn */ 
     .col1{
-        /* height: 50%; */ 
-        height: 90%; 
+        /* height: 90%; */ 
+        height: 50vh; 
         width: 300px;
         margin: 0;
         /* padding-right: 100px; */
@@ -347,8 +347,8 @@ footer{
     /* about me columnn */ 
     .col2{
         /* padding: 0 10px; */
-        /* height: 50%; */ 
-        height: 90%; 
+        /* height: 90%; */ 
+        height: 50vh; 
         width: 300px;
         text-align: left;
         margin: 0;
