@@ -354,7 +354,8 @@ footer{
         text-align: left;
         margin: 0;
         border-left: none;
-        padding: 1.2em;
+        /* padding: 1.2em; */ 
+        padding: 0.2em; 
     }
     
     
