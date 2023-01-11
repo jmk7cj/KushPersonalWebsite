@@ -287,18 +287,24 @@ footer{
 }
 
 
+
+
+/* about me columnn */ 
 .col1{
     width: 50%;
     /* height: 50vh; */ 
-    height: 20vh; 
+    height: 10vh; 
     align-self: center;
 }
 
 
-.col2{
+
+
+/* picture columnn */ 
+.col2{ 
     /* height: 50vh; */
     height: 50vh; 
-    width: 50%;
+    width: 30%;
     /* margin: 2em .75em; */ 
     margin 0.5em 0.5em; 
     text-align: left;
