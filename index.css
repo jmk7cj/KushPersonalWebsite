@@ -304,10 +304,8 @@ footer{
 /* about me columnn [controls center line] */ 
 .col2{ 
     /* height: 50vh; */
-    height: 50vh; /* this controls length of center line*/ 
+    height: 50%; /* this controls length of center line*/ 
     width: 70%;
-    
-    /* margin: 2em .75em; */ 
     margin: 2em 0.75em; 
     text-align: left;
     padding: 100px;
