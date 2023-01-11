@@ -306,11 +306,10 @@ footer{
     height: 20vh; 
     width: 30%;
     /* margin: 2em .75em; */ 
-    margin 2em 0.75em; 
+    margin: 2em 0.75em; 
     text-align: left;
     padding: 100px;
-    /* align-self: center; */ 
-    align-self: left; 
+    align-self: center; 
     border-left: 1px solid lightgrey;
 }
 
@@ -332,6 +331,9 @@ footer{
         margin: 20px auto 10px auto;
     }
 
+    
+    
+    /* picture columnn */ 
     .col1{
         height: 50%;
         width: 300px;
@@ -340,6 +342,7 @@ footer{
     }
     
     
+    /* about me columnn */ 
     .col2{
         /* padding: 0 10px; */
         height: 50%;
