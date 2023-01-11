@@ -293,9 +293,11 @@ footer{
 
 }
 .col2{
-    height: 50vh;
+    /* height: 50vh; */
+    height: 20vh; 
     width: 50%;
-    margin: 2em .75em;
+    /* margin: 2em .75em; */ 
+    margin 0.2em 0.2em; 
     text-align: left;
     padding: 100px;
     align-self: center; 
