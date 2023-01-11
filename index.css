@@ -16,7 +16,7 @@ body{
     margin: 0;
     height: 65vh;
     /* font-size: 17px; */ 
-    font-size: 20px; 
+    font-size: 18px; 
     /* font-family: 'Cormorant Garamond', 'Roboto', sans-serif; */ 
     font-family: 'Roboto', serif;
     /* font-family: sans-serif, Roboto; */ 
@@ -197,7 +197,7 @@ a:focus{
         padding: 14px 16px;
         text-decoration: none;
         /* font-size: 17px; */ 
-        font-size: 20px; 
+        font-size: 18px; 
         display: block;
     }
     
