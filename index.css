@@ -291,9 +291,10 @@ footer{
 
 /* picture columnn */ 
 .col1{
+    /* height: 50vh; */
+    /* width: 40%; */ 
+    height: 70%;; 
     width: 40%;
-    /* height: 50vh; */ 
-    height: 10vh; 
     align-self: center; 
 }
 
@@ -307,7 +308,7 @@ footer{
     /* height: 20vh; */
     /* width: 50%; */ 
     
-    height: 70%; 
+    height: 90%; 
     width: 70%;
     
     /* margin: 2em .75em; */ 
