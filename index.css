@@ -264,6 +264,7 @@ footer{
     height: 300px;
     width: auto;
 }
+
 .homeContainer{
     text-align: center;
     padding: .5em;
@@ -277,12 +278,12 @@ footer{
     margin: 1em;
     font-size: 20px;
     text-decoration: none;
-    
 }
 
 .education{
     margin: 2em 0 0 0;
 }
+
 .col1{
     width: 50%;
     height: 50vh;
