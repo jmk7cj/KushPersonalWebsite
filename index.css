@@ -341,7 +341,8 @@ footer{
     
     /* picture columnn */ 
     .col1{
-        height: 50%;
+        /* height: 50%; */ 
+        height: 90%; 
         width: 300px;
         margin: 0;
         /* padding-right: 100px; */
