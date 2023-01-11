@@ -293,7 +293,7 @@ footer{
 .col1{
     /* height: 50vh; */
     /* width: 40%; */ 
-    height: 90vh; 
+    height: 90%; 
     width: 40%;
     align-self: center; 
 }
@@ -308,7 +308,7 @@ footer{
     width: 70%;
     
     /* margin: 2em .75em; */ 
-    margin: 2em 0.75em; 
+    margin: 0.2em 0.75em; 
     text-align: left;
     padding: 100px;
     align-self: center; 
