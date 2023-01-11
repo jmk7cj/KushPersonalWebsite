@@ -267,7 +267,8 @@ footer{
 
 .homeContainer{
     text-align: center;
-    padding: .5em;
+    /* padding: .5em; */ 
+    padding: 0.1em;
     letter-spacing: .1em;
     line-height: 1.2em;
     display: flex;
