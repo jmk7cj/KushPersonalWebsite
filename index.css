@@ -287,13 +287,14 @@ footer{
 
 .col1{
     width: 50%;
-    height: 50vh;
+    /* height: 50vh; */ 
+    height: 30vh; 
     align-self: center;
 
 }
 .col2{
     /* height: 50vh; */ 
-    height: 20vh;
+    height: 50vh;
     width: 50%;
     margin: 2em .75em;
     text-align: left;
