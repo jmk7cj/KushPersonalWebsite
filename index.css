@@ -5,10 +5,10 @@
 body{
     margin: 0;
     height: 65vh;
-    /* font-size: 17px; */ 
-    font-size: 19px; 
     font-family: 'Cormorant Garamond', serif;
+    font-size: 19px; 
     /* font-family: Roboto, serif; */ 
+    /* font-size: 17px; */ 
 
     
    
@@ -293,7 +293,7 @@ footer{
 .col1{
     /* height: 50vh; */
     /* width: 40%; */ 
-    height: 90vh; 
+    height: 90%; 
     width: 40%;
     align-self: center; 
 }
@@ -309,7 +309,7 @@ footer{
     /* width: 50%; */ 
     
     /* height: 90%; */ 
-    height: 90vh; 
+    height: 90%; 
     width: 70%;
     
     /* margin: 2em .75em; */ 
