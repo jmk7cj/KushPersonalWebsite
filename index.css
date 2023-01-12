@@ -319,7 +319,7 @@ footer{
     width: 70%;
     align-self: center; 
     text-align: left;
-    margin-top: 1em;
+    margin-top: 1.5em;
     padding: 10px 70px 10px 70px; /* top, right, bottom, left */
     border-left: 1px solid lightgrey;
 }
