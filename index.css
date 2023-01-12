@@ -317,7 +317,8 @@ footer{
     /* height: 50vh; */
     height: 50vh; /* this controls length of center line*/ 
     width: 70%;
-    margin: 2em 0.75em; 
+    /* margin: 2em 0.75em; */ 
+    margin 0.2em 0.75em; 
     text-align: left;
     padding: 100px;
     align-self: center; 
@@ -358,8 +359,7 @@ footer{
     .col2{
         /* padding: 0 10px; */
         /* height: 90%; */ 
-        /* height: 50vh; */ 
-        height: 90vh;
+        height: 50vh; 
         width: 300px;
         text-align: left;
         margin: 0;
