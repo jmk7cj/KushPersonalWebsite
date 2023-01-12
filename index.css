@@ -355,6 +355,7 @@ footer{
         border-left: none;
         /* padding: 1.2em; */ 
         padding: 0;
+        vertical-align: top;
     }
     
     
