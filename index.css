@@ -328,12 +328,12 @@ footer{
 
 
 .col2{
-    height: 50vh; 
+    height: 70vh; 
     width: 70%;
     align-self: center; 
     text-align: left;
     margin-top: 1em;
-    padding-left: 100px;
+    padding: 10px 70px 10px 70px; /* top, right, bottom, left */
     border-left: 1px solid lightgrey;
 }
 
