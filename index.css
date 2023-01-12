@@ -331,6 +331,8 @@ footer{
     height: 50vh; 
     width: 70%;
     align-self: center; 
+    text-align: left;
+    margin-top: 0.5em;
     border-left: 1px solid lightgrey;
 }
 
