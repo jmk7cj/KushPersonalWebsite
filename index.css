@@ -258,6 +258,16 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* HomePage CSS */
 
 .profilePicture{
@@ -312,6 +322,7 @@ footer{
     padding: 100px;
     align-self: center; 
     border-left: 1px solid lightgrey;
+    vertical-align: top;
 }
 
 
@@ -363,6 +374,15 @@ footer{
 
 
 /* End Home  */
+
+
+
+
+
+
+
+
+
 
 
 
