@@ -333,7 +333,7 @@ footer{
     align-self: center; 
     text-align: left;
     margin-top: 1em;
-    padding: 100px;
+    padding-left: 100px;
     border-left: 1px solid lightgrey;
 }
 
