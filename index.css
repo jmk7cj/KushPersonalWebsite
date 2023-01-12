@@ -322,7 +322,6 @@ footer{
     padding: 100px;
     align-self: center; 
     border-left: 1px solid lightgrey;
-    vertical-align: top;
 }
 
 
@@ -359,14 +358,14 @@ footer{
     .col2{
         /* padding: 0 10px; */
         /* height: 90%; */ 
-        height: 50vh; 
+        /* height: 50vh; */ 
+        height: 90vh;
         width: 300px;
         text-align: left;
         margin: 0;
         border-left: none;
         /* padding: 1.2em; */ 
         padding: 0;
-        vertical-align: top;
     }
     
     
