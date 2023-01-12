@@ -322,7 +322,6 @@ footer{
     padding: 100px; 
     align-self: center; 
     border-left: 1px solid lightgrey;
-    margin-top: 0; 
 }
 
 
@@ -364,8 +363,8 @@ footer{
         text-align: left;
         margin: 0;
         border-left: none;
-        /* padding: 1.2em; */ 
-        padding: 0;
+        padding: 1.2em;
+        margin-top: 0
     }
     
     
