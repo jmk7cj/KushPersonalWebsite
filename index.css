@@ -322,6 +322,7 @@ footer{
     padding: 100px; 
     align-self: center; 
     border-left: 1px solid lightgrey;
+    margin-top: 0; 
 }
 
 
