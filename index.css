@@ -6,14 +6,17 @@ body{
     margin: 0;
     height: 65vh;
     
-    font-family: 'Cormorant Garamond', serif; 
-    font-size: 19px; 
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* font-size: 19px; */
     
     /* font-family: 'Roboto', serif; */
     /* font-size: 17px;  */
     
     /* font-family: 'Raleway', serif; */
     /* font-size: 17px; */
+    
+    font-family: 'Lato', serif;
+    font-size: 17px; 
 }
 
 
