@@ -22,6 +22,17 @@ body{
 
 
 
+
+/* this colors name in publications list */
+pub_color{
+    color: #514491; 
+}
+
+
+
+
+
+/* this colors hyperlinks */
 a{
     color: #060;
     text-decoration: none;
@@ -32,6 +43,9 @@ a:focus{
     color: grey;
 
 }
+
+
+
 
 
 
