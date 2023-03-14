@@ -1,15 +1,39 @@
 /* All Pages CSS  */
 
+
+
 body{
-    
     margin: 0;
     height: 65vh;
-    font-size: 17px;
-    font-family: 'Roboto', sans-serif;
     
-   
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* font-size: 19px; */
+    
+    font-family: 'Roboto Slab', serif;
+    font-size: 16.5px; 
+    
+    /* font-family: 'Raleway', serif; */
+    /* font-size: 17px; */
+    
+    /* font-family: 'Inter', sans-serif; */
+    /* font-size: 16px; */
 }
 
+
+
+
+
+/* this colors name in publications list */
+pub_color{
+    color: #999999;
+    /*color: #605e8f;*/
+}
+
+
+
+
+
+/* this colors hyperlinks */
 a{
     color: #060;
     text-decoration: none;
@@ -20,6 +44,10 @@ a:focus{
     color: grey;
 
 }
+
+
+
+
 
 
 
@@ -181,7 +209,8 @@ a:focus{
         color: black;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        /* font-size: 17px; */ 
+        font-size: 19px; 
         display: block;
     }
     
@@ -240,15 +269,40 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HomePage CSS */
 
 .profilePicture{
     height: 300px;
     width: auto;
 }
+
 .homeContainer{
     text-align: center;
-    padding: .5em;
+    /* padding: .5em; */ 
+    padding: 0.5em;
     letter-spacing: .1em;
     line-height: 1.2em;
     display: flex;
@@ -259,66 +313,109 @@ footer{
     margin: 1em;
     font-size: 20px;
     text-decoration: none;
-    
 }
+
 
 .education{
     margin: 2em 0 0 0;
 }
-.col1{
-    width: 50%;
-    height: 50vh;
-    align-self: center;
 
-}
-.col2{
-    height: 50vh;
-    width: 50%;
-    margin: 2em .75em;
-    text-align: left;
-    padding: 100px;
+
+
+
+/* picture columnn */ 
+.col1{
+    /* height: 90%; */
+    /* width: 40%; */
+    /* height: 50vh; */
+    height: 50vh; 
+    width: 40%;
     align-self: center; 
-    border-left: 1px solid lightgrey;
-   
 }
+
+
+
+
+/* about me columnn [controls center line] */ 
+.col2{
+    /* height: 70vh; */ 
+    height: 80%; 
+    width: 50%;
+    align-self: center; 
+    text-align: left;
+    margin-top: 1.5em;
+    padding: 10px 90px 10px 90px; /* top, right, bottom, left */
+    border-left: 1px solid lightgrey;
+}
+
+
 
 @media (max-width: 900px) {
+    
     .homeContainer{
         flex-direction: column;
         justify-content: center;
         /* padding-right: 100px; */
         align-items: center;
         align-content: center;
-       
     }
+    
+    
     h1{
         width: 300px;
         margin: 20px auto 10px auto;
     }
 
+    
+    
+    /* picture columnn */ 
     .col1{
-        height: 50%;
+        /* height: 90%; */ 
+        height: 50vh; 
         width: 300px;
         margin: 0;
-
         /* padding-right: 100px; */
-
-    
     }
+    
+    
+    /* about me columnn */ 
     .col2{
         /* padding: 0 10px; */
-        height: 50%;
+        /* height: 90%; */ 
+        height: 50vh; 
         width: 300px;
         text-align: left;
         margin: 0;
         border-left: none;
         padding: 1.2em;
-     
+        margin-top: 0
     }
+    
+    
 }
 
 
 /* End Home  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -366,11 +463,19 @@ footer{
        
     }
 
- 
 
 }
 
 /* End publications */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -407,5 +512,59 @@ footer{
 
 }
 
-
 /* End Code */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Code Teaching */
+
+.teachingMain{
+   
+    margin: 0 1em 3em 1em; 
+    line-height: 1.5em;
+    padding: 0 9em 5em 9em;
+}
+
+
+
+.teachingSectionTitle{
+    margin-top: 3em;
+    font-size: 1.25rem;
+    /* font-style: italic; */
+}
+.teachingTitle{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: .5em;
+    font-size: 1.75rem;
+    margin-bottom: 2em;
+    margin-top: 2rem;
+}
+@media (max-width: 900px) {
+
+    .teachingMain{
+        padding: 2em;
+    }
+
+}
+
+/* End Teaching */
+
+
+
+
+
+
+
+
