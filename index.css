@@ -3,6 +3,8 @@
 
 
 body{
+    overflow-x: hidden;
+    overflow-y: scroll;
     margin: 0;
     height: 65vh;
     
@@ -22,13 +24,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     */
     
-    /*
-    font-family: "Helvetica-Light", "Helvetica Light", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 15px;
-    */
     
-    font-family: 'Open Sans', Arial, sans-serif; 
-    font-size: 16px; 
+    font-family: "Helvetica-Light", "Helvetica Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 16px;
+   
+    
+    /* font-family: 'Open Sans', Arial, sans-serif; 
+    font-size: 16px;  */
 }
 
 
@@ -36,11 +38,15 @@ body{
 
 
 /* this colors name in publications list */
-pub_color{
+.pub_color{
     color: #999999;
     /*color: #605e8f;*/
 }
 
+h1,
+h2{
+    font-weight: 400;
+}
 
 
 
@@ -142,6 +148,7 @@ a:focus{
     background-color: #F2F2F2;
     padding: 1em 1em;
 
+
 }
 
 
@@ -203,7 +210,7 @@ a:focus{
         position: relative;
         display: block;
         text-align: left;
-        padding: .75rem;
+        padding: .75em;
         /* min-width: 100%; */
         /* position:fixed; */
         right:0px;
@@ -280,35 +287,12 @@ footer{
 /* End All */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* HomePage CSS */
 
 .profilePicture{
-    height: 300px;
+    max-height: 300px;
     width: auto;
+    
 }
 
 .homeContainer{
@@ -345,14 +329,9 @@ footer{
 
 /* picture columnn */ 
 .col1{
-    /* height: 90%; */
-    /* width: 40%; */
-    /* height: 50vh; */
-    height: 50vh; 
     width: 40%;
-    align-self: center; 
+    padding-top: 10%;
 }
-
 
 
 
@@ -384,6 +363,7 @@ footer{
     h1{
         width: 300px;
         margin: 20px auto 10px auto;
+        
     }
 
     
