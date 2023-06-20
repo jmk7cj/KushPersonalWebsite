@@ -425,7 +425,7 @@ footer{
 
 /* ensure italicized font is not also bolded */ 
 .italicnotbold{
-    font-style: normal;
+    font-style: italic;
     font-weight: normal;
 }​
 
