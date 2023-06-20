@@ -423,6 +423,11 @@ footer{
 /* Publications CSS */
 
 
+/* ensure italicized font is not also bolded */ 
+.notbold{
+    font-weight:normal
+}​
+
 .publishedPaperMain{
     padding: 0 9em 4em 9em;
    
