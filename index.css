@@ -345,6 +345,7 @@ footer{
     align-self: center; 
     text-align: left;
     margin-top: 1.5em;
+    margin-bottom: 1.5em;
     padding: 10px 90px 10px 90px; /* top, right, bottom, left */
     border-left: 1px solid lightgrey;
 }
