@@ -101,7 +101,6 @@ a:focus{
     display: flex;
     align-items: baseline;
     justify-content: center;
-    border: 1px solid red;
 }
 .socialLinks{
     color: black;
@@ -395,7 +394,6 @@ footer{
       
     }
         .socialLinksContainer{
-            border: 1px solid red;
             margin: 1px;
         }
     
