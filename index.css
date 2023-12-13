@@ -373,41 +373,45 @@ footer{
         /* padding-right: 100px; */
         align-items: center;
         align-content: center;
+        
     }
     
-    
+/*     
     h1{
         width: 300px;
         margin: 20px auto 10px auto;
         
-    }
+    } */
 
     
     
     /* picture columnn */ 
     .col1{
         /* height: 90%; */ 
-        height: 50vh; 
+        min-height: 50vh; 
         width: 300px;
-        margin: 0;
+       
         /* padding-right: 100px; */
-        padding: 10px 90px 10px 90px; /* top, right, bottom, left */
+
     }
     
     
     /* about me columnn */ 
     .col2{
         /* padding: 0 10px; */
-        /* height: 90%; */ 
-        height: 50vh; 
+        height: 90%; 
+        /* height: 50vh;  */
         width: 300px;
         text-align: left;
         /*margin: 0;*/
         margin: 10px 10px 10px 10px; /* top, right, bottom, left */
         border-left: none;
         padding: 1.2em;
-        /*margin-top: 0*/
+
     }
+        .socialLinksContainer{
+            margin: 1px;
+        }
     
     
 }
