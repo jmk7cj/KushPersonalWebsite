@@ -101,6 +101,7 @@ a:focus{
     display: flex;
     align-items: baseline;
     justify-content: center;
+    border: 1px solid red;
 }
 .socialLinks{
     color: black;
@@ -357,39 +358,46 @@ footer{
         /* padding-right: 100px; */
         align-items: center;
         align-content: center;
+        
     }
     
-    
+/*     
     h1{
         width: 300px;
         margin: 20px auto 10px auto;
         
-    }
+    } */
 
     
     
     /* picture columnn */ 
     .col1{
         /* height: 90%; */ 
-        height: 50vh; 
+        min-height: 50vh; 
         width: 300px;
-        margin: 0;
+       
         /* padding-right: 100px; */
+        ;
     }
     
     
     /* about me columnn */ 
     .col2{
         /* padding: 0 10px; */
-        /* height: 90%; */ 
-        height: 50vh; 
+        height: 90%; 
+        /* height: 50vh;  */
         width: 300px;
         text-align: left;
         margin: 0;
         border-left: none;
         padding: 1.2em;
-        margin-top: 0
+        margin-top: 0;
+      
     }
+        .socialLinksContainer{
+            border: 1px solid red;
+            margin: 1px;
+        }
     
     
 }
