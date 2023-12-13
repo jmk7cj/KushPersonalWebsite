@@ -344,6 +344,7 @@ footer{
 .col1{
     width: 40%;
     padding-top: 10%;
+    padding: 10px 90px 10px 90px; /* top, right, bottom, left */
 }
 
 
@@ -358,7 +359,7 @@ footer{
     margin-top: 1.5em;
     /*margin-bottom: 1.5em;*/
     padding: 10px 90px 10px 90px; /* top, right, bottom, left */
-    padding: 
+    /*padding: */
     border-left: 1px solid lightgrey;
 }
 
@@ -390,6 +391,7 @@ footer{
         width: 300px;
         margin: 0;
         /* padding-right: 100px; */
+        padding: 10px 90px 10px 90px; /* top, right, bottom, left */
     }
     
     
