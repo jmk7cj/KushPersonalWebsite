@@ -154,10 +154,11 @@ a:focus{
 }
 
 
+/* 
 .name-link{
     font-size: 25px;
-
 }
+*/
 
 #myLinks{
      
@@ -250,15 +251,21 @@ a:focus{
         background-color: #F2F2F2;
         color: black;
     } 
-    .nav-link-first{
-       
+    .name-link-first{
         margin-top: 50px;
     }
-    .nav-link{
-       
+    .nav-link-first{
+        margin-top: 50px;
+    }
+    .name-link{
         width: 90%;
         text-align: right;
     }
+    .nav-link{
+        width: 90%;
+        text-align: right;
+    }
+    
     
 
 } 
